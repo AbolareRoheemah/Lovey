@@ -1,0 +1,97 @@
+body {
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+/* gradient background */
+#bkgdColor{
+    background: rgb(235, 62, 91);
+    background: linear-gradient(to right, rgb(240, 14, 52), rgb(235, 62,91));
+    padding-top: 40px;
+}
+.smalls {
+    /* background-position: center; */
+    padding-left: 150px;
+}
+.Heading{
+    font-size: 2.5em;
+    color: white;
+    text-align: left;
+}
+.topInfo {
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+}
+.secRow {
+    padding: 40px 0px 0px 150px;
+}
+.secPhone {
+    padding: 0px 0px 40px 150px;
+    border-radius: 200px;
+}
+.firstLast {
+    color: white;
+}
+.mid {
+    padding-left: 70px;
+    color: white;
+}
+.headingText2{
+    font-size: 1em;
+    color: black;
+    text-align: left;
+}
+button.navbarText{
+    background: rgb(235, 62, 91);
+    /* width: 50px; */
+}
+.contact {
+    padding: 60px 30px;
+}
+span#navbarText{
+    padding-top: 8px;
+    margin-left: 0px;
+    font-size: 1.5em;
+}
+li a:hover{
+    background-color: rgb(235, 62, 91);
+    color: white;
+}
+.firstBtn {
+    background-color: rgb(235, 62, 91);
+    color: white;
+}
+.secBtn {
+    background-color: rgb(165, 89, 89);
+    color: white;
+    padding: 5px 50px;
+}
+.form-control {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    /* border-radius: 0px; */
+}
+.headingText{
+    font-size: 1em;
+    color: white;
+    padding: 60px;
+    text-align: left;
+}
+.Heading2{
+    font-size: 2em;
+    color: black;
+    padding: 20px;
+    text-align: left;
+}
+.review {
+    margin: 8px 8px 0px 0px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+@include media-breakpoint-down(sm) {
+    .back {
+        background-color: pink;
+    }
+}
