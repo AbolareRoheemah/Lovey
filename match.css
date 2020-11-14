@@ -19,7 +19,7 @@ body {
 }
 .topInfo {
     color: white;
-    text-align: left;
+    /* text-align: left; */
     margin-top: 100px;
 }
 .secRow {
@@ -39,7 +39,7 @@ body {
 .headingText2{
     font-size: 1em;
     color: black;
-    text-align: left;
+    /* text-align: left; */
 }
 button.navbarText{
     background: rgb(235, 62, 91);
